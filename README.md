@@ -1,6 +1,6 @@
 
-##Human Activity Recognition Using Smartphones Tidy Dataset
-+ Version 1.0
+##Human Activity Recognition Using Smartphones - Tidy Dataset
++ Version 1.0 Jan.24.2015
 
 ##Original Authors of raw data:
 + Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
