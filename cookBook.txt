@@ -84,3 +84,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 "MeanOf-fBodyBodyGyroMag-std()"     
 "MeanOf-fBodyBodyGyroJerkMag-mean()" 
 "MeanOf-fBodyBodyGyroJerkMag-std()" 
+
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation

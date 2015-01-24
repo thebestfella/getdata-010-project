@@ -2,7 +2,13 @@
 # @author:  Peter Wang
 # @date:    Jan, 23, 2015
 # @file:    run_analysis.R
-# @desc:    
+# @desc:    This script converts UCI HAR dataset into a tidy 
+#           dataset, please see UCI HAR dataset site for more 
+#           info on how the raw data was collected, or check
+#           my repository on how the data was handled during
+#           data process.
+# @warning: This script has to put under same file level of 
+#           "UCI HAR Dataset"
 #------------------------------------------------------------------
 
 library(stringr)
@@ -34,6 +40,8 @@ rm(train_x)
 
 #read features
 features<-read.table("./UCI HAR Dataset/features.txt")
+
+#add column name to dataset
 names(dataset)<-features[,2]
 
 #generate a list of data that contains "mean", "std"
