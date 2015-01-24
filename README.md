@@ -5,22 +5,24 @@
 
 
 ##Human Activity Recognition Using Smartphones Tidy Dataset
-###Version 1.0
++Version 1.0
+
 ##Original Authors:
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
++Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
+
 ##Tidy Dataset produced by:
-###Peter Wang.
++Peter Wang.
 
 
 
 
 ## Files
-### Tidy data set contains data from the following files of original UCI HAR Dataset, please check its official site for more info about how the raw data was captured or contact activityrecognition@smartlab.ws
++ Tidy data set contains data from the following files of original UCI HAR Dataset, please check its official site for more info about how the raw data was captured or contact activityrecognition@smartlab.ws
 
 + 'features_info.txt': Shows info about the variables on feature vector.
 
@@ -44,6 +46,12 @@ www.smartlab.ws
 + the processes are roughly broken into the following 5 steps.
 
 ### step 1
+
++ "x_train.txt", "y_train.txt", "subject_train.txt" from train subfolder and "x_test.txt", "x_train.txt", "subject_test.txt" from test subfolder are read to indivisual dataframes.
+
++ a rbind method is called to bind x_train and x_test together vertically to a singal dataset.
+
++ x_train and x_test are removed from memory scope.
 
 ### step 2
 
