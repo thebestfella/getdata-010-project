@@ -84,7 +84,7 @@ www.smartlab.ws
 
 + Remove subject_train, y_train, subject_test, y_test, acticity_labels, subect_list from current memory scope.
 
-### step 5
+### step 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 + Summarize the dataset into a tidyDataSet by melting and calculating in group of mean of each column (each first two column.)
 
