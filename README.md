@@ -4,21 +4,20 @@
 012345678901234567890123456789012345678901234567890123456789
 
 
-==========================================================================
-Human Activity Recognition Using Smartphones Tidy Dataset
-Version 1.0
-==========================================================================
-Original Authors:
+##Human Activity Recognition Using Smartphones Tidy Dataset
+###Version 1.0
+##Original Authors:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==========================================================================
-Tidy Dataset produced by:
-Peter Wang.
-==========================================================================
+##Tidy Dataset produced by:
+###Peter Wang.
+
+
+
 
 ## Files
 ### Tidy data set contains data from the following files of original UCI HAR Dataset, please check its official site for more info about how the raw data was captured or contact activityrecognition@smartlab.ws
@@ -38,6 +37,8 @@ Peter Wang.
 + 'test/y_test.txt': Test labels.
 
 
+
+
 ## How the tidy dataset is processed
 
 + the processes are roughly broken into the following 5 steps.
@@ -51,6 +52,8 @@ Peter Wang.
 ### step 5
 
 + 
+
+
 
 
 ##License:
